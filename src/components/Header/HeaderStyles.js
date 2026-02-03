@@ -39,8 +39,11 @@ export const NavBar = styled.nav`
   // borde neon
 
   border: 2px solid var(--neon-pink);
-  box-shadow: 0 0 10px var(--neon-pink), 0 0 20px var(--neon-blue),
-    0 0 30px var(--neon-pink), inset 0 0 8px var(--neon-blue); /* Brillo interno */
+  box-shadow:
+    0 0 10px var(--neon-pink),
+    0 0 20px var(--neon-blue),
+    0 0 30px var(--neon-pink),
+    inset 0 0 8px var(--neon-blue); /* Brillo interno */
 
   // CELULAR
 
@@ -58,7 +61,8 @@ export const NavBar = styled.nav`
     transform: ${(props) =>
       props.isOpen ? "translateX(0)" : "translateX(200%)"};
 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    background-image:
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url("https://res.cloudinary.com/djyhwdmek/image/upload/v1763510161/fondo3_ph87uz.jpg");
     /* background-image: url("https://res.cloudinary.com/djyhwdmek/image/upload/v1763510161/fondo4_seosnz.jpg"); */
     /* background-image: url("https://res.cloudinary.com/djyhwdmek/image/upload/v1763510161/fondo2_mlqldy.avif"); */
